@@ -400,5 +400,7 @@ body {
     border-right: none;
 }
 
-
-  
+/* For fonts */
+.card-body {
+	font-family: 'Merriweather', sans-serif;
+}
