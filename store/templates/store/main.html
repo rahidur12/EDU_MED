@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 {% load static %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
 
 <html lang="en">
 
@@ -92,17 +96,17 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <p class="brand_name"><span style="font-weight: bold; font-style: italic; font-size: 16px;">EDU MEDIX</span></p>
+            {% comment %} <p class="brand_name"><span style="font-weight: bold; font-style: italic; font-size: 16px;">EDU MEDIX</span></p> {% endcomment %}
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="{% url 'Store' %}">STORE</a>
+            <a class="nav-link active" aria-current="page" style="font-family: 'Montserrat', sans-serif;" href="{% url 'Store' %}">STORE</a>
           </li>
           <li class="nav-item">
-            <a  class="nav-link active" aria-current="page" href="{% url 'Store' %}#items">ITEM</a>
+            <a  class="nav-link active" aria-current="page" style="font-family: 'Montserrat', sans-serif;" href="{% url 'Store' %}#items">ITEM</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page"  href="{% url 'healthtips' %}">BLOG</a>
+            <a class="nav-link active" aria-current="page"  style="font-family: 'Montserrat', sans-serif;" href="{% url 'healthtips' %}">HEALTH TIPS</a>
           </li>
         </ul>
         <div class="py-0 mb-2 d-flex align-items-center justify-content-between">
@@ -160,7 +164,10 @@
       <div class="col-lg-3 col-md-6">
         <h4 class="text-light mb-4">We Accept</h4>
         <div class="payment-logo text-right">
-            <img src="{% static 'images/pr.png' %}" alt="Payment Logo" width="250" height="150">
+            <img src="{% static 'images/COD.png' %}" alt="Payment Logo" width="150" height="150">
+            <br>
+            <h4 class="text-dark mb-4" >NB :- Online Payment Will Be Added Soon</h4>
+            <h4 class="text-dark mb-4" >Apologies For The Inconvenience</h4>
         </div>
     </div>
    

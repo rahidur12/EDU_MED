@@ -44,9 +44,9 @@
         <br>
 
          <div class="box-element hidden" id="payment-info"> <!--class="box-element hidden" ebhabe likhle uporer form fillup na kora porjnto payment option dekhabena , add bkash too -->
-            <small>Paypal Option</small>
+            <small>Online Payement Will Be Added Later</small>
             <!-- <button id ="make-payment">Make Payement</button> -->
-            <button type="button" class="btn btn-warning" id ="make-payment">Make Payement</button>
+            <button type="button" class="btn btn-warning" id ="make-payment">Make Payement Cash on Delivery</button>
         </div>
     </div>
 
@@ -147,7 +147,7 @@
         .then(response => response.json())
                 .then((data) => {
                     console.log('Success :', data);
-                    alert('Your Payement Has Been Completed, Wish you a good health');
+                    alert('Your Order Has Been Taken, we will be at your doorstep as soon as possible!');
 
                     cart = {}
                     document.cookie = 'cart=' + JSON.stringify(cart) + ";domain=;path=/"
