@@ -27,9 +27,9 @@ def healthtips(request):#added by showrav
 
 
 
-def items_view(request):
-    # Your view logic goes here
-    return render(request, 'store/#items/.html')  # Verify the template path
+# def items_view(request):
+#     # Your view logic goes here
+#     return render(request, 'store/#items/.html')  # Verify the template path
 
 
 
