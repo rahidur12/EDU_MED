@@ -26,6 +26,13 @@ def healthtips(request):#added by showrav
     return render(request, 'store/healthtips.html', context)
 
 
+
+def items_view(request):
+    # Your view logic goes here
+    return render(request, 'store/#items/.html')  # Verify the template path
+
+
+
 def cart(request):  
     data = cartData(request)
     cartItems = data['cartItems']

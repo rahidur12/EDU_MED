@@ -328,11 +328,8 @@ body {
 	font-style: bold;
 }
 
-/*** Footer ***/
+/* ** Footer ** */
 .footer {
-    /* background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../img/carousel-bg-1.jpg) center center no-repeat; */
-	/* background-color: #1c8347;
-	 */
     background-size: cover;
 }
 
@@ -403,4 +400,81 @@ body {
 /* For fonts */
 .card-body {
 	font-family: 'Merriweather', sans-serif;
+}
+
+.stylish-text {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: #007bff;
+	text-decoration: underline;
+  }
+  .category_btn {
+	border-radius: 15px; /* Adjust the border-radius to control the roundness */
+	margin-bottom: 10px; /* Adjust the margin-bottom for spacing */
+	margin-left: 10px;
+
+	transition: background-color 0.3s, transform 0.2s ease-in-out; /* Add a smooth transition effect */
+
+  /* Define the initial background color */
+  background-color: #52BD7F;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.category_btn:hover {
+  background-color: #52BD7F; /* Change the background color on hover */
+  transform: scale(1.1); /* Scale up the button slightly on hover */
+  }
+  
+
+  /* Add a default style for the divs */
+.d-flex.align-items-center.border.mb-4 {
+	padding: 40px;
+	transition: background-color 0.3s, transform 0.2s ease-in-out;
+  }
+  
+  /* Style changes on hover */
+  .d-flex.align-items-center.border.mb-4:hover {
+	background-color: #52BD7F; /* Change the background color on hover */
+	transform: scale(1.05); /* Slightly scale up the element on hover */
+  }
+  
+  /* Style changes for the icon */
+  .d-flex.align-items-center.border.mb-4:hover h1 {
+	color: #52BD7F; /* Change the icon color on hover */
+  }
+  
+  /* Style changes for the text */
+  .d-flex.align-items-center.border.mb-4:hover h5 {
+	color: white; /* Change the text color on hover */
+  }
+  
+  /* Default styles for the navbar links */
+.nav-item .nav-link {
+	color: #333; /* Default text color */
+	transition: color 0.3s; /* Smooth transition for text color change */
+  }
+  
+  /* Style changes on hover */
+  .nav-item .nav-link:hover {
+	color: #007bff; /* Change the text color on hover */
+  }
+  
+  .btn-outline-secondary {
+    --bs-btn-color: #1e73bf;
+    --bs-btn-border-color: #1e73bf;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #52BD7F;
+    --bs-btn-hover-border-color: #6c757d;
+    --bs-btn-focus-shadow-rgb: 108,117,125;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6c757d;
+    --bs-btn-active-border-color: #6c757d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #6c757d;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #6c757d;
+    --bs-gradient: none;
 }
